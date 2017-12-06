@@ -1,7 +1,8 @@
-var card_ui = document.querySelector('.card');
+var card_ui = document.querySelectorAll('.card');
 
-card_ui.click = function(){
-  var href = location.href;
-  console.log(href);
-  window.location = 'http://cafe.naver.com/csslick';
+for (var i=0; i < card_ui.length; i++){
+  card_ui[i].onclick = function(){
+    window.location = 'http://cafe.naver.com/csslick';
+  }
+  console.log(i);
 }
