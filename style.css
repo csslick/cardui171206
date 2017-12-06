@@ -63,3 +63,10 @@ https://material.io/guidelines/style/color.html#color-color-palette
 .bg-red-light{
   background: #F44336;
 }
+
+
+
+/*  커서 */
+.card:hover{ 
+  cursor: pointer;
+}
