@@ -1,0 +1,65 @@
+*{ margin:0;}
+body{ 
+  margin: 20px;
+  font: 100% "Arial", sans-serif;
+}
+table { 
+  border-collapse: collapse;
+  width: 100%;
+}
+.card{  
+  width: 300px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+  display: inline-block;
+  
+}
+.card h2{ 
+  font-size: 30px;
+  color: #fff;
+}
+.card p{ 
+  margin-top: 5px;
+}
+.card td{ padding: 20px;}
+.card td:first-child{ width: 75%; }
+.card td:first-child > p{ color: #fff;}
+.card td:last-child{
+  width: 25%;
+  text-align: right;
+  vertical-align: top;
+}
+.number{
+  font-size: 30px;
+  color: white;
+  text-align: right;
+  padding: 5px;
+}
+
+.caption{ 
+  color: #666;
+  padding: 0px 20px;
+}
+.caption > p { margin-bottom: 10px;}
+.caption > time, .caption > .author { 
+  color: #666;
+  font-size: small;
+}
+
+
+/*  COLOR 
+https://material.io/guidelines/style/color.html#color-color-palette
+*/
+.bg-green-dark{
+  background: #1B5E20;
+}
+.bg-green-light{
+  background: #4CAF50;
+}
+
+.bg-red-dark{
+  background: #B71C1C;
+}
+.bg-red-light{
+  background: #F44336;
+}
